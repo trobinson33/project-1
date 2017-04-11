@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #fff;
 }
 /* Link Styles */
 
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #fff;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,21 +43,22 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #35373C;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
+  color: #35373C;
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  opacity: .5;
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/hero.jpg');
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -77,16 +78,19 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #35373C;
+  color: #fff;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  color: #35373C;
+  
+}
+.tag.location {
+	background-color: #fff;
 }
 .card {
   margin: 30px;
@@ -204,4 +208,3 @@ a.social:hover {
   }
 
 }
-
